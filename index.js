@@ -1,8 +1,8 @@
 'use strict'
 
-var descriptives = require('./descriptives')
-var ttest = require('./ttest')
-var wilcoxon = require('./wilcoxon')
+var descriptives = require('./src/descriptives')
+var ttest = require('./src/ttest')
+var wilcoxon = require('./src/wilcoxon')
 
 module.exports = {
 
