@@ -17,6 +17,8 @@ Mathematics regarding statistical tests are adapted from [Colt](https://dst.lbl.
 * Welch's t-test (unequal variances t-test)
 * Wilcoxon test (Mann-Whitney U test)
 
+T-tests return a p-value, a t-statistic and degrees of freedom. Wilcoxon test returns a p-value and area under the curve (AUC). All tests are one-tailed. Multiply the returned p-value by two to get a two-tailed p-value.
+
 ## Usage example
 ```javascript
 var genstats = require('genstats')
