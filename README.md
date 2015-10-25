@@ -1,12 +1,13 @@
 # genstats
 Statistical tests and descriptives for science
 
+Mathematics regarding statistical tests are adapted from [Colt](https://dst.lbl.gov/ACSSoftware/colt/) and [JSci](http://jsci.sourceforge.net/) Java libraries. 
+
 ## Descriptives
 
 * arithmetic mean
 * sample variance
 * standard deviation
-
 * sample covariance
 * sample correlation
 
