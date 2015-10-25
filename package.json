@@ -1,0 +1,32 @@
+{
+  "name": "genstats",
+  "version": "0.0.1",
+  "description": "Statistical tests and descriptives for science",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juhis/genstats.git"
+  },
+  "keywords": [
+    "statistics",
+    "correlation",
+    "t-test",
+    "wilcoxon",
+    "mann-whitney",
+    "p-value",
+    "scientific"
+  ],
+  "author": "Juha Karjalainen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juhis/genstats/issues"
+  },
+  "homepage": "https://github.com/juhis/genstats#readme",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}
