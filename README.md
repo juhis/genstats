@@ -3,6 +3,17 @@ Statistical tests and descriptives for science
 
 Mathematics regarding statistical tests are adapted from [Colt](https://dst.lbl.gov/ACSSoftware/colt/) and [JSci](http://jsci.sourceforge.net/) Java libraries. 
 
+## Installation
+
+```
+npm install genstats
+```
+
+## Test
+```bash
+$ npm test
+```
+
 ## Descriptives
 
 * arithmetic mean
@@ -51,9 +62,4 @@ console.log('Welch\'s t-test', genstats.welch(a1, a2))
 // Wilcoxon test (Mann-Whitney U)                                                                                                                                                  
 console.log('Wilcoxon', genstats.wilcoxon(a1, a2))
 
-```
-
-## Test
-```bash
-$ npm test
 ```
