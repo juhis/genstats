@@ -6,7 +6,7 @@ Mathematics regarding statistical tests are adapted from [Colt](https://dst.lbl.
 ## Installation
 
 ```
-npm install genstats
+$ npm install genstats
 ```
 
 ## Test
